@@ -27,7 +27,7 @@ int callUnit(UNIT unit)
 	return ecode;
 }
 
-void testFailure(const char* name, long line, const char* message)
+void testFailure(const char* name, int line, const char* message)
 {
 	fprintf(stderr, "%s[%i]: test failed, %s\n", name, line, message);
 }

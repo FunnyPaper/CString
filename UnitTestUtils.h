@@ -15,7 +15,7 @@ typedef struct
 
 int callTest(TEST* test);
 int callUnit(UNIT unit);
-void testFailure(const char* name, long line, const char* message);
+void testFailure(const char* name, int line, const char* message);
 
 #define TESTFAILED(x) testFailure(__FILE__, __LINE__, x)
 
