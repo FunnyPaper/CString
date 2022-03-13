@@ -2,6 +2,8 @@
 
 #include "UnitTestUtils.h"
 
+// Przykładowe definicje funkcji pomocniczych do tworzenia testów
+
 int callTest(TEST* test)
 {
 	return test->test();

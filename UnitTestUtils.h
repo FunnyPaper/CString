@@ -1,6 +1,8 @@
 #ifndef UNITTESTUTILS_HEADER_FILE
 #define UNITTESTUTILS_HEADER_FILE
 
+// Funkcje, struktury i makro pomocnicze do konstrukcji testów
+
 typedef struct 
 {
 	int (*test)();

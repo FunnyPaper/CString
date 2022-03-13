@@ -5,6 +5,9 @@
 #include "CStringTests.h"
 #include "CString.h"
 
+// Testy napisane dla podanych danych (str)- wszystkie testy powinny być zdane na 1
+// "data" jest tworzona raz na uruchomienie unitu - w każdym teście dostępna jest ta sama zmienna
+
 static CString* data;
 static const char* str = "Hello from CStringTests";
 
@@ -167,17 +170,22 @@ int testDataGet()
 	return 1;
 }
 
+// Umieszczenie testów w jednej tablicy dla łatwiejszego transportu
+
 TEST tests[] = {
-		&testLength, 
-		&testAtFirstElement,
-		&testAtLastElement,
-		&testAtFifthElement,
-		&testAtOutOfBound,
-		&testSetCharFirstElementToX,
-		&testSetCharLastElementToY,
-		&testSetCharOutOfBoundElementToZ,
-		&testDataGet
+	&testLength, 
+	&testAtFirstElement,
+	&testAtLastElement,
+	&testAtFifthElement,
+	&testAtOutOfBound,
+	&testSetCharFirstElementToX,
+	&testSetCharLastElementToY,
+	&testSetCharOutOfBoundElementToZ,
+	&testDataGet
 };
+
+// Przykładowa instancja z testami do użytku
+
 UNIT cstringUnit = {
 	&setupUnit,
 	&cleanupUnit,

@@ -30,7 +30,9 @@ Kompilacja programu
 
 1. Ściągnij cały projekt (przycisk code -> download zip - jeśli go nie ma to do adresu strony dopisz /zipball/main).
 2. Rozpakuj w dowolnym miejscu.
-3. Linux -> kliknij prawym przyciskiem myszy wewnątrz rozpakowanego folderu i wybierz opcję otwarcia w teminalu. Windows -> udaj się do rozpakowanego folderu, kliknij w ścieżkę dostępu wyświetlaną obok ikonki odświeżania i wpisz "cmd". Alterntywnie włącz wiersz polecenia/ Terminal i udaj się ręcznie do wskazanych folderów komendą cd.
+3. Linux -> kliknij prawym przyciskiem myszy wewnątrz rozpakowanego folderu i wybierz opcję otwarcia w teminalu. 
+Windows -> udaj się do rozpakowanego folderu, kliknij w ścieżkę dostępu wyświetlaną obok ikonki odświeżania i wpisz "cmd". 
+Alterntywnie włącz wiersz polecenia/ Terminal i udaj się ręcznie do wskazanych folderów komendą cd.
 4. Linux -> w oknie Terminala wpisz:
 
 $ gcc -g *.c -o program

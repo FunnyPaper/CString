@@ -3,6 +3,8 @@
 
 #include "CString.h"
 
+// Przykładowa definicja CStringa i metod na nim operujących
+
 typedef struct CString
 {
 	char* data;

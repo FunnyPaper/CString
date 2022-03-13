@@ -2,6 +2,8 @@
 
 #include "CStringTests.h"
 
+// Uruchomienie przygotowanych testów
+
 int main(void) 
 {	
 	if(callUnit(cstringUnit))
